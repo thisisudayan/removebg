@@ -25,6 +25,5 @@ if __name__ == "__main__":
         (r"/", basicRequestHandler)
     ])
 
-    app.listen(8888)
-    print("I'm listening on port 8888")
+    app.listen()
     tornado.ioloop.IOLoop.current().start()
